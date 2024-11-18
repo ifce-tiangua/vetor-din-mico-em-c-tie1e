@@ -14,7 +14,7 @@ int main() {
     }
 
     if(tamanho <= 0)
-        prinft([vazio]);
+        prinft("[vazio]");
     
     printf("[");
     for (int i = 0; i < tamanho; i++) {
@@ -23,7 +23,7 @@ int main() {
             printf(", ");
         }
     }
-    printf("]\n");
+    printf("]");
 
     free(vetor);
 

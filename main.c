@@ -12,10 +12,15 @@ int main() {
     for (int i = 0; i < tamanho; i++) {
         scanf("%d", &vetor[i]);
     }
-
+    
+    printf("[");
     for (int i = 0; i < tamanho; i++) {
         printf("%d\n", vetor[i]);
+        if (i < tamanho - 1) {
+            printf(", ");
+        }
     }
+    printf("]\n");
 
     free(vetor);
 

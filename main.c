@@ -16,9 +16,8 @@ int main() {
         scanf("%d", &vetor[i]);
     }
 
-    printf("\nOs dados do vetor são:\n");
     for (int i = 0; i < tamanho; i++) {
-        printf("%d\n", i + 1, vetor[i]);
+        printf("%d\n", vetor[i]);
     }
 
     free(vetor);

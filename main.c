@@ -18,7 +18,7 @@ int main() {
 
     printf("\nOs dados do vetor são:\n");
     for (int i = 0; i < tamanho; i++) {
-        printf("Elemento %d: %d\n", i + 1, vetor[i]);
+        printf("%d\n", i + 1, vetor[i]);
     }
 
     free(vetor);

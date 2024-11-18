@@ -14,7 +14,7 @@ int main() {
     }
 
     if(tamanho <= 0)
-        prinft("[vazio]");
+        printf("[vazio]");
     
     printf("[");
     for (int i = 0; i < tamanho; i++) {

@@ -12,18 +12,22 @@ int main() {
     for (int i = 0; i < tamanho; i++) {
         scanf("%d", &vetor[i]);
     }
-
-    if(tamanho <= 0)
-        printf("[vazio]");
     
+    
+    if(tamanho <= 0) {
+        printf("[vazio");
+        }
+    else if (tamanho >= 0)   
     printf("[");
     for (int i = 0; i < tamanho; i++) {
         printf("%d", vetor[i]);
         if (i < tamanho - 1) {
             printf(", ");
         }
-    }
-    printf("]");
+        if(tamanho <= 0) {
+        printf("vazio");
+        }
+    }printf("]");
 
     free(vetor);
 

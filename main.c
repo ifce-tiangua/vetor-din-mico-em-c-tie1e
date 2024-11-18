@@ -12,6 +12,9 @@ int main() {
     for (int i = 0; i < tamanho; i++) {
         scanf("%d", &vetor[i]);
     }
+
+    if(tamanho <= 0)
+        prinft([vazio]);
     
     printf("[");
     for (int i = 0; i < tamanho; i++) {
